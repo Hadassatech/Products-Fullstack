@@ -19,3 +19,12 @@
 .logout-btn:hover {
     background-color: #74c6c7;
 }
+@media (max-width: 768px) {
+    .dashboard {
+        padding: 1rem;
+    }
+    .logout {
+        width: 100%;
+        margin: 1em 0;
+    }
+}
