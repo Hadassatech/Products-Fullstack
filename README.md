@@ -109,6 +109,7 @@ docker compose down
 ### 8. Notes
 
 - JWT is stored in `LocalStorage.
+- The application includes responsive UI components
 
 
 
