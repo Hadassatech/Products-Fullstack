@@ -59,9 +59,8 @@ npm install
 cd backend
 npm install
 ``` 
-It will open `http://localhost:3000`
 
----
+
 
 ### 4. Elasticsearch Test
 
