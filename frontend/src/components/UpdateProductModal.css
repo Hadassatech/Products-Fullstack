@@ -1,0 +1,78 @@
+.DialogOverlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    inset: 0;
+}
+
+.DialogContent {
+    background-color: white;
+    border-radius: 12px;
+    padding: 2em;
+    color: black;
+    max-width: 400px;
+    margin: 10% auto;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.DialogContent input {
+    display: block;
+    width: 100%;
+    padding: 0.75em 1em;
+    margin-top: 1em;
+    background-color: #c6bdbd;
+    border: 1px solid #555;
+    border-radius: 8px;
+    color: black;
+    font-size: 1rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    position: relative;
+    right: 1em;
+}
+
+.DialogContent input:focus {
+    outline: none;
+    border-color: #00c6ff;
+    box-shadow: 0 0 0 2px rgba(0, 198, 255, 0.4);
+}
+
+.DialogContent button {
+    padding: 0.6em 1.2em;
+    margin-right: 0.5em;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.DialogContent button:hover {
+    opacity: 0.9;
+}
+
+.DialogContent button:active {
+    transform: scale(0.98);
+}
+
+.DialogContent button:first-of-type {
+    background: #74c6c7;
+    color: white;
+}
+
+.DialogContent .close {
+    background-color: transparent;
+    color: #aaa;
+    border: 1px solid #444;
+}
+
+.DialogContent .close:hover {
+    color: #fff;
+    border-color: #888;
+}
+.DialogContent h2 {
+    color: black;
+}
