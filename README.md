@@ -40,7 +40,7 @@ cp .env.example .env
 Open a terminal in the project root and run:
 
 ```bash
-docker compose up --build
+docker compose up -d --build
 ```
 
 Docker will:
